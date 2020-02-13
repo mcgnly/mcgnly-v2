@@ -1,0 +1,13 @@
+- make side nav bar go all the way down
+- overlay text onto graphic?
+- fill in contact pg
+- fill in project page
+- fill in build-a-website page
+- dark mode
+- tab highlighting
+- skip nav tab
+- linkedin link
+- github link
+- click on name takes you back to home
+- change burger to X
+- style nav menu

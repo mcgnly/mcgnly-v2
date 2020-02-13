@@ -1,9 +1,16 @@
+import { createGlobalStyle } from 'styled-components';
+
+export const GlobalStyles = createGlobalStyle`
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  height:100%;
+  margin: 0;
 }
 body {
+  min-width: 100%;
+  min-height: 100%
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -620,3 +627,4 @@ pre tt:after {
     font-size: 100%;
   }
 }
+`
