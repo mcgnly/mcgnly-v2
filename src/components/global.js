@@ -6,12 +6,13 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   height:100%;
-  margin: 0;
+  margin: 0px;
 }
 body {
+  margin: 0;
+  background: #ececf0;
   min-width: 100%;
   min-height: 100%
-  margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

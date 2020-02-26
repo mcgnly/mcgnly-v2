@@ -3,6 +3,7 @@ export const theme = {
   primaryDark: '#0D0C1D',
   primaryLight: '#EFFFFA',
   primaryHover: '#343078',
-  glassesRed: '#bf5a50',
+  glassesRed: '#c1372a',
+  bkgWhite: '#ececf0',
   mobile: '576px',
 }

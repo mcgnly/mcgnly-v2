@@ -5,7 +5,7 @@ const StyledMain = styled.main`
 {
   margin: 0 auto;
   maxWidth: 960;
-  padding: 2rem 1rem 1.45rem 5rem;
+  padding-left: 4rem;
   background: "#ffffff";
     
   @media (max-width: ${({ theme }) => theme.mobile}) {

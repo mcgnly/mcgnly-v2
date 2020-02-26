@@ -35,11 +35,7 @@ const Layout = ({ children }) => {
     <ThemeProvider theme={theme}>
       <>
         <GlobalStyles />
-        <div>
           <Navbar />
-          <Burger open={open} setOpen={setOpen} />
-          <Menu open={open} setOpen={setOpen} />
-        </div>
           <Main children={children} />
           <footer style={{ margin: "0 1rem" }}>
             © {new Date().getFullYear()}, Built by

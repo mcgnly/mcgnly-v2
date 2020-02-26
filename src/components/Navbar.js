@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Navbar = () => {
   return (
       <StyledNavbar>
-        <StyledHeadline style={{}}>Katie McGinley</StyledHeadline>
+        <StyledHeadline style={{}}>mcgnly labs</StyledHeadline>
       </StyledNavbar>
   )
 }
@@ -21,14 +21,15 @@ const StyledNavbar = styled.nav`
   flex-direction: column;
   justify-content: center;
   background: ${({ theme }) => theme.glassesRed};
-  // min-height: 100vh;
+  min-height: 100vh;
   width:10px;
   padding: 2rem;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   overflow:hidden;
   align-items: stretch;
+  z-index:3;
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     width: 100%;
